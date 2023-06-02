@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="stylesheet" href="src/css/forum.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Forum</title>
+    <link rel="stylesheet" href="src/css/comentário.css">
+
+</head>
+
+<body>
+    <nav class="capa">
+        <div class="imagem">
+            <!-- <img src="./src//img/theOwlHouse (1).jpg" alt="capa categoria"> 
+            <div class="menu">
+                <input class="menuzin" type="text">
+                <button class="botao" type="submit">Pesquisar</button>
+                <button class="botao" type="submit">Novo Topico</button>
+            </div>-->
+        </div>
+    </nav>
+    <main>
+        <div class="comentario">
+            <section class="comentar-agg">
+                <div class="imguser">
+                    <img src="./src/img/user.png" alt="">
+                </div>
+                <div class="inputCom">
+                    <input id="newComentario" type="text" placeholder="Adicione um comentario...">
+                </div>
+                <div class="btn-agg">
+                    <button onclick="nComentario()">Comentar</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <ul id="comentarios" class="comentario2">
+
+    </ul>
+</body>
+<script src="src/js/main.js"></script>
+
+</html>
